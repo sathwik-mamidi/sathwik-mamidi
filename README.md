@@ -54,6 +54,6 @@ Smaller tools built along the way, because my side projects have side projects.
 
 ## Contact
 
-[sathwikmamidi.com](https://sathwikmamidi.com) · [X](https://x.com/sathwik-mamidi) · [LinkedIn](https://www.linkedin.com/in/sathwik-mamidi/) · [Instagram](https://instagram.com/sathwik_mamidi_) · hi@sathwikmamidi.com
+[sathwikmamidi.com](https://sathwikmamidi.com) · [X](https://x.com/sathwik_mamidi) · [LinkedIn](https://www.linkedin.com/in/sathwik-mamidi/) · [Instagram](https://instagram.com/sathwik_mamidi_) · hi@sathwikmamidi.com
 
 *Open to technical co-founder and founding CTO conversations. If you're an operator or domain expert with a hard problem worth solving, I'd love to hear about it.*
