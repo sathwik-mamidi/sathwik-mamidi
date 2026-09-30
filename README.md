@@ -1,59 +1,60 @@
 # Sathwik Mamidi
 
-**Technical co-founder. Ten years of taking products from idea to production.**
+**Technical founder. CTO at Akisto.**
 
-I design, architect, and ship software end to end: AI systems, real-time multiplayer infrastructure, consumer platforms, and developer tools. Fifteen products over the past decade, each owned across the full lifecycle, from product strategy and system design through engineering, deployment, and iteration. Most of this work was built before I moved it into the open; this profile is the record.
+I build AI systems for work where mistakes are expensive.
 
-**Currently building** [aftlog](https://github.com/sathwik-mamidi/aftlog), an open-source, local-first flight recorder for AI coding agents.
+For a decade I have taken products from first idea to production, across applied AI, developer infrastructure, identity, and real-time systems. In every company I have owned the technical foundation, from the first architecture decision to production.
 
----
+## Now
 
-## Products
+**Akisto**, CTO. An AI supplier coordinator for manufacturers. Supplier email threads mix several orders, answer half the question, and move dates without saying so; Akisto turns them into traceable facts, a consistent state for every order, and follow-up that happens on time. I lead architecture and engineering: a typed platform with a canonical data model, durable workflows, tenant isolation, and a full audit trail.
 
-| Years | Project | What it is | Links |
-|-------|---------|------------|-------|
-| 2026 | **Aftlog** | Local-first flight recorder for AI coding agents. Records every shell command and file modification, generates session reports in Markdown, JSON, and HTML, and provides a two-step revert workflow with backups. Git-aware diffing separates agent changes from pre-existing work. Rust. | [Code](https://github.com/sathwik-mamidi/aftlog) |
-| 2026 | **Everby** | Native macOS accountability companion, chat-first and notification-driven. Layered memory architecture (transcripts, rolling summaries, durable facts), local tool calling, voice dictation, inline notification replies. Swift 6, AppKit. | [Code](https://github.com/sathwik-mamidi/Everby) |
-| 2025 | **Scrute** | AI document intelligence for commercial real estate compliance. TitleCheck AI reconciles title commitments against ALTA surveys with page-level evidence; PermitCheck AI reviews plan sets against NYC building, zoning, and fire codes with exact code citations. Multimodal pipeline: legal text extraction, survey vision, spatial analysis. | [Live](https://scrute.ai) |
-| 2025 | **Commentrix** | Real-time AI sports commentary. A vision pipeline reads live game footage, a commentary engine generates play-by-play, and neural TTS delivers it in multiple languages. Built for platforms running many simultaneous games. | [Live](https://commentrixai.com) · [Code](https://github.com/sathwik-mamidi/commentrix) |
-| 2025 | **Aiditor** | Chat-based editing agent for video, audio, and images. Natural language compiles to FFmpeg operations and sandboxed Python execution, collapsing a multi-application editing workflow into one conversational interface. | [Live](https://aiditor.ai) · [Code](https://github.com/sathwik-mamidi/aiditor) |
-| 2023-2024 | **Authnest** | Privacy-first email infrastructure for application signups: a dedicated secondary email layer for logins, OTPs, and transactional mail. Node.js, AWS SES, Lambda, DynamoDB. | [Live](https://authnest.com) · [Code](https://github.com/sathwik-mamidi/authnest) |
-| 2022-2023 | **OnlyOnePremium** | A unified subscription layer across SaaS platforms and content sites: one plan, single-sign access to multiple paid products. | [Live](https://onlyonepremium.com) · [Code](https://github.com/sathwik-mamidi/onlyonepremium) |
-| 2021 | **Slowandsteady 2** | Massively multiplayer incremental game with an economy built around donation mechanics, guild coordination, and a shared global leaderboard. | [Live](https://slowandsteady.xyz) · [Code](https://github.com/sathwik-mamidi/slowandsteady.xyz) |
-| 2021 | **Slowandsteady.io** | A fully autonomous multiplayer idle race: a zero-player game over WebSockets with a Redis-backed leaderboard. Drew 30,000 players in its first night. | [Live](https://slowandsteady.io) · [Code](https://github.com/sathwik-mamidi/slowandsteady.io) |
-| 2021 | **Favs.bio** | A link-in-bio platform organized around shared interests, connecting profiles through what people like. | |
-| 2019-2020 | **Rank Race** | Massively multiplayer online racing game combining incremental progression with reflex-driven racing. Unity, C#, Redis, WebSockets. | |
-| 2019 | **SV Hunt** | Online scavenger hunt platform built around hard puzzles and timed prize rounds. Express, Node.js, MySQL, Redis. | |
-| 2019 | **Links Browser** | Mobile browser surfacing top sites and public figures with their social graphs. Built in React Native, re-engineered in Flutter. | |
-| 2018-2019 | **Twish** | Visual search engine rendering live screenshots of the top one million websites, powered by parallel Puppeteer capture farms on EC2. | |
-| 2018 | **Vowalls** | A structured platform for public opinion: post views on any topic, vote on everyone else's. Flask, Python, MySQL. | |
+TypeScript, React, PostgreSQL, Temporal, AWS. In development, pilot secured.
 
-## Tooling and infrastructure
+## Track record
 
-Smaller tools built along the way, because my side projects have side projects.
+| Years | Company | Role | What it was |
+|---|---|---|---|
+| 2026 | **Akisto** | CTO | AI supplier coordination for manufacturers. Moving the product from automation and spreadsheets to a durable, auditable platform. |
+| 2025–26 | **Scrute** | Founder and CTO | AI review for commercial real estate documents. Title commitments reconciled against surveys, plans checked against building-code rules, every finding tied to its page. [Demos](https://scrute.ai) |
+| 2025 | **Commentrix** | Founder | Automated play-by-play for sports footage. Proved the pipeline end to end, then chose not to pursue a market that was too narrow. [Source](https://github.com/sathwik-mamidi/commentrix) |
+| 2025 | **Aiditor** | Founder | A conversational editor for image, audio, and video. Shipped the full product and learned where natural language holds as an interface, and where it breaks. [Source](https://github.com/sathwik-mamidi/aiditor) |
+| 2023–24 | **Authnest** | Founder | A separate email identity for sign-ups, one-time codes, and notifications. Set aside to focus fully on Scrute. [Source](https://github.com/sathwik-mamidi/authnest) |
+| 2017–23 | **Independent products** | Founder | Consumer products, multiplayer games, and SaaS, each designed, built, and operated end to end: OnlyOnePremium, SlowAndSteady, Rank Race, SV Hunt, Links Browser, Favs.bio, Vowalls. |
 
-- [voice-chat-widget](https://github.com/sathwik-mamidi/voice-chat-widget): embeddable text and voice assistant widget
-- [oauth-flow-tester](https://github.com/sathwik-mamidi/oauth-flow-tester): local OAuth 2.0 / OIDC flow tester for provider integrations
-- [ad-network-scanner](https://github.com/sathwik-mamidi/ad-network-scanner): CLI that detects ad-network requests on any domain
-- [open-order](https://github.com/sathwik-mamidi/open-order): smart QR-menu ordering with contextual pairings
-- [logistics-trust-console](https://github.com/sathwik-mamidi/logistics-trust-console): carrier trust-scoring console for logistics compliance
-- [prompt-page-builder](https://github.com/sathwik-mamidi/prompt-page-builder): personal webpages from natural-language prompts
-- [ai-wallpaper-batcher](https://github.com/sathwik-mamidi/ai-wallpaper-batcher): batch AI wallpaper generation CLI
-- [ses-email-ingestion-lambda](https://github.com/sathwik-mamidi/ses-email-ingestion-lambda): SES inbound email to S3 to DynamoDB pipeline
-- [whocan](https://github.com/sathwik-mamidi/whocan): personal contact rules and request inbox
+## Selected engineering
 
-## Technical range
+**[Aftlog](https://github.com/sathwik-mamidi/aftlog)**: a flight recorder for AI coding agents. A local Rust daemon records every command and file change, separates the agent's work from what was already there, and produces a readable report with a conservative, backup-first revert plan. *Rust, Git, filesystem watchers.*
 
-**AI systems**: LLM pipelines, multimodal vision, and voice in production. Agent architectures, tool calling, document intelligence, real-time speech. Claude, Gemini, OpenAI, ElevenLabs, STT/TTS.
+**[Scrute](https://scrute.ai)**: document review that cites its sources. Title and survey parsing run in parallel and are reconciled together; plan details from a vision model are checked by explicit TypeScript rules; findings carry the rule, observed and required values, and page references. *TypeScript, NestJS, PostgreSQL, Gemini.*
 
-**Real-time infrastructure**: WebSocket architectures, Redis-backed state, multiplayer game loops, live leaderboards at tens of thousands of concurrent players.
+**[Aiditor](https://github.com/sathwik-mamidi/aiditor)**: conversation as the control surface for media. The model plans the edit as Python, a dedicated container executes it, and failures feed back into the next attempt. *Python, FastAPI, Gemini, Docker, FFmpeg.*
 
-**Native and systems**: Rust CLIs and daemons with filesystem-level instrumentation; native macOS in Swift 6 and AppKit; Unity and C#.
+**[Everby](https://github.com/sathwik-mamidi/Everby)**: a native macOS accountability companion. Layered memory with distinct lifetimes, check-ins timed to the person's actual day, and personal state that stays on the machine. *Swift, AppKit, Keychain, tool calling.*
 
-**Web platforms**: Next.js, Node.js, Python, Flask on AWS and Cloudflare; MySQL, DynamoDB, Redis.
+## Range
+
+- **Real-time systems.** [SlowAndSteady.io](https://github.com/sathwik-mamidi/slowandsteady.io), a zero-player multiplayer race that drew 30,000 hits in one night, and [SlowAndSteady 2](https://github.com/sathwik-mamidi/slowandsteady.xyz), a shared economy where giving creates power. WebSockets, Redis, Unity.
+- **Multimodal pipelines.** [Commentrix](https://github.com/sathwik-mamidi/commentrix) samples footage, writes timestamped commentary, and aligns narration and subtitles to the source timeline.
+- **Identity and email.** [Authnest](https://github.com/sathwik-mamidi/authnest), [SES Email Ingestion](https://github.com/sathwik-mamidi/ses-email-ingestion-lambda), and an [OAuth Flow Tester](https://github.com/sathwik-mamidi/oauth-flow-tester) for proving authorization-code and OIDC flows in isolation.
+- **Browser automation at scale.** Twish, a visual index of one million websites captured by parallel Puppeteer workers on EC2, and the [Ad Network Scanner](https://github.com/sathwik-mamidi/ad-network-scanner).
+- **Explainable decisions.** The [Logistics Trust Console](https://github.com/sathwik-mamidi/logistics-trust-console), carrier due diligence that refuses to hide its reasons.
+
+More: [Open Order](https://github.com/sathwik-mamidi/open-order), [Voice Chat Widget](https://github.com/sathwik-mamidi/voice-chat-widget), [Prompt Page Builder](https://github.com/sathwik-mamidi/prompt-page-builder), [WhoCan](https://github.com/sathwik-mamidi/whocan), [AI Wallpaper Batcher](https://github.com/sathwik-mamidi/ai-wallpaper-batcher), [OnlyOnePremium](https://github.com/sathwik-mamidi/onlyonepremium).
+
+## How I build
+
+**Start where the work actually happens.** Before any architecture, learn how the job is done today: the spreadsheets, the email threads, the workarounds.
+
+**Let models interpret. Let rules decide.** Models read messy input well. Commitments, state, and money belong to deterministic code, with a person able to step in.
+
+**Show the evidence, and plan the undo.** A finding, score, or automated action is incomplete without a source someone can inspect and a way back if it is wrong.
+
+**Earn every piece of complexity.** Use the smallest architecture that tells the truth.
 
 ## Contact
 
-[sathwikmamidi.com](https://sathwikmamidi.com) · [X](https://x.com/sathwik_mamidi) · [LinkedIn](https://www.linkedin.com/in/sathwik-mamidi/) · [Instagram](https://instagram.com/sathwik_mamidi_) · hi@sathwikmamidi.com
+Working on a difficult problem in a domain you know deeply? I would like to hear about it.
 
-*Open to technical co-founder and founding CTO conversations. If you're an operator or domain expert with a hard problem worth solving, I'd love to hear about it.*
+[sathwikmamidi.com](https://sathwikmamidi.com) · [hi@sathwikmamidi.com](mailto:hi@sathwikmamidi.com) · [LinkedIn](https://www.linkedin.com/in/sathwik-mamidi/) · [X](https://x.com/sathwik_mamidi)
