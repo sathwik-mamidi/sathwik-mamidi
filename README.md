@@ -1,6 +1,6 @@
 # Sathwik Mamidi
 
-**Technical founder. CTO at Akisto.**
+**Technical founder. Co-founder and CTO at Akisto.**
 
 I build AI systems for work where mistakes are expensive.
 
@@ -8,20 +8,20 @@ For a decade I have taken products from first idea to production, across applied
 
 ## Now
 
-**Akisto**, CTO. An AI supplier coordinator for manufacturers. Supplier email threads mix several orders, answer half the question, and move dates without saying so; Akisto turns them into traceable facts, a consistent state for every order, and follow-up that happens on time. I lead architecture and engineering: a typed platform with a canonical data model, durable workflows, tenant isolation, and a full audit trail.
+**Akisto**, co-founder and CTO. An AI supplier coordinator for manufacturing procurement teams. Between a purchase order and its delivery, buyers chase suppliers through email and calls that mix several orders, answer half the question, and move dates without saying so. Akisto automates that work: traceable facts from every conversation, a consistent state for every order, and follow-up that happens on time. It is deployed with a manufacturer and has managed more than 2,000 purchase orders.
 
-TypeScript, React, PostgreSQL, Temporal, AWS. In development, pilot secured.
+I lead product and engineering end to end: system architecture, AI agents that work with suppliers over email and phone, workflow automation, integrations, data pipelines, and a risk layer that flags orders likely to disrupt production. TypeScript, React, PostgreSQL, Temporal, AWS.
 
 ## Track record
 
 | Years | Company | Role | What it was |
 |---|---|---|---|
-| 2026 | **Akisto** | CTO | AI supplier coordination for manufacturers. Moving the product from automation and spreadsheets to a durable, auditable platform. |
-| 2025–26 | **Scrute** | Founder and CTO | AI review for commercial real estate documents. Title commitments reconciled against surveys, plans checked against building-code rules, every finding tied to its page. [Demos](https://scrute.ai) |
-| 2025 | **Commentrix** | Founder | Automated play-by-play for sports footage. Proved the pipeline end to end, then chose not to pursue a market that was too narrow. [Source](https://github.com/sathwik-mamidi/commentrix) |
-| 2025 | **Aiditor** | Founder | A conversational editor for image, audio, and video. Shipped the full product and learned where natural language holds as an interface, and where it breaks. [Source](https://github.com/sathwik-mamidi/aiditor) |
-| 2023–24 | **Authnest** | Founder | A separate email identity for sign-ups, one-time codes, and notifications. Set aside to focus fully on Scrute. [Source](https://github.com/sathwik-mamidi/authnest) |
-| 2017–23 | **Independent products** | Founder | Consumer products, multiplayer games, and SaaS, each designed, built, and operated end to end: OnlyOnePremium, SlowAndSteady, Rank Race, SV Hunt, Links Browser, Favs.bio, Vowalls. |
+| 2026 | **Akisto** | Co-founder and CTO | AI supplier coordination for manufacturing procurement. Deployed with a manufacturer; 2,000+ purchase orders managed. |
+| 2025–26 | **Scrute** | Co-founder and CTO | AI document intelligence for commercial real estate. Title commitments reconciled against ALTA surveys, plan sets checked against building-code rules, every finding tied to its source. Customer discovery moved the focus from title review to permit compliance. [Demos](https://scrute.ai) |
+| 2025 | **Commentrix** | Founder | Real-time AI sports commentary. A working MVP in two weeks; market research showed too few buyers to build a company on, so I chose not to pursue it. [Source](https://github.com/sathwik-mamidi/commentrix) |
+| 2025 | **Aiditor** | Co-founder | A conversational editor for image, audio, and video. I built the complete product from scratch, through to launch readiness. [Source](https://github.com/sathwik-mamidi/aiditor) |
+| 2023–24 | **Authnest** | Founder | Built solo through several iterations, from social login to enterprise authentication to a dedicated email service for logins, one-time codes, and notifications. [Source](https://github.com/sathwik-mamidi/authnest) |
+| Since 2016 | **Mamidi Ventures** | Founder | My independent studio: consumer software, games, SaaS, AI, and developer tools, each taken from zero to one. Aftlog, Everby, SlowAndSteady, Rank Race, SV Hunt, Twish, OnlyOnePremium, Links Browser, Favs.bio, Vowalls. |
 
 ## Selected engineering
 
@@ -35,7 +35,7 @@ TypeScript, React, PostgreSQL, Temporal, AWS. In development, pilot secured.
 
 ## Range
 
-- **Real-time systems.** [SlowAndSteady.io](https://github.com/sathwik-mamidi/slowandsteady.io), a zero-player multiplayer race that drew 30,000 hits in one night, and [SlowAndSteady 2](https://github.com/sathwik-mamidi/slowandsteady.xyz), a shared economy where giving creates power. WebSockets, Redis, Unity.
+- **Real-time systems.** [SlowAndSteady.io](https://github.com/sathwik-mamidi/slowandsteady.io), a zero-player multiplayer race that drew around 30,000 visits in one night, and [SlowAndSteady 2](https://github.com/sathwik-mamidi/slowandsteady.xyz), a shared economy where giving creates power. WebSockets, Redis, Unity.
 - **Multimodal pipelines.** [Commentrix](https://github.com/sathwik-mamidi/commentrix) samples footage, writes timestamped commentary, and aligns narration and subtitles to the source timeline.
 - **Identity and email.** [Authnest](https://github.com/sathwik-mamidi/authnest), [SES Email Ingestion](https://github.com/sathwik-mamidi/ses-email-ingestion-lambda), and an [OAuth Flow Tester](https://github.com/sathwik-mamidi/oauth-flow-tester) for proving authorization-code and OIDC flows in isolation.
 - **Browser automation at scale.** Twish, a visual index of one million websites captured by parallel Puppeteer workers on EC2, and the [Ad Network Scanner](https://github.com/sathwik-mamidi/ad-network-scanner).
